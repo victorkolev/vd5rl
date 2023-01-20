@@ -1,0 +1,7 @@
+[submodule "d4rl2/envs/a1/robots/unitree_sim"]
+	path = d4rl2/envs/a1/robots/unitree_sim
+	url = https://github.com/ikostrikov/unitree_sim.git
+
+[submodule "d4rl2/envs/widowx/roboverse/assets/bullet-objects"]
+	path = d4rl2/envs/widowx/roboverse/assets/bullet-objects
+	url = https://github.com/Alacarter/bullet-objects

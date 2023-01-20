@@ -1,0 +1,11 @@
+session_name: 4-pane-split
+windows:
+  - window_name: a1_walk
+    panes:
+      - MUJOCO_GL=egl CUDA_VISIBLE_DEVICES= python -m d4rl2.envs.a1.collect.walk.train_online
+  - window_name: a1_umaze
+    panes:
+      - MUJOCO_GL=egl CUDA_VISIBLE_DEVICES= python -m d4rl2.envs.a1.collect.maze.collect --maze_name=umaze
+  - window_name: a1_medium_maze
+    panes:
+      - MUJOCO_GL=egl CUDA_VISIBLE_DEVICES= python -m d4rl2.envs.a1.collect.maze.collect --maze_name=medium_maze
